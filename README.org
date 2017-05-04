@@ -1,0 +1,2 @@
+* Bench BNB
+Practice writing specs for an AirBnB clone
