@@ -11,5 +11,8 @@ RSpec.describe User, type: :model do
     it { should validate_uniqueness_of(:username) }
   end
 
-  describe 'associations'
+  describe 'associations' do
+    it { should have_many(:favorites) }
+    it { should have_many(:favorite_benches) }
+  end
 end
